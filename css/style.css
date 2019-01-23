@@ -2616,10 +2616,12 @@ a.get_request:hover {
 {
     font-size: 16px;
     text-transform: uppercase;
+    color: #fff !important;
 }
 .service_offer_4 .frthhome_services
 {
     padding: 45px 20px 40px;
+  
 }
 .service_offer_4 .frthhome_services .img_hover, .service_offer_4 .frthhome_services .img
 {
@@ -2635,7 +2637,7 @@ a.get_request:hover {
 }
 .service_offer_4 .frthhome_services:hover
 {
-    background: #8cb53e;
+    background: #fff;
     padding: 45px 20px 40px;
 }
 .service_offer_4 .frthhome_ser_mtbm
@@ -2648,6 +2650,7 @@ a.get_request:hover {
 }
 .frthhome_services {
     background: #fff;
+    color: #fff !important;
     box-shadow: 0px 0px 10px #ccc;
     width: 100%;
     float: left;
@@ -2658,12 +2661,7 @@ a.get_request:hover {
     min-height: 280px;
 }
 .frthhome_services:hover {
-    background: url(../images/home_page4/frth_srvice_hover_bg.jpg) no-repeat 0px 0px;
-    padding: 20px 17px 23px;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease;
-    background-size: cover !important;
+
 }
 .frthhome_services:hover > .service_icon {
     background: url(../images/home_page4/service_leave_icon_hover.png) no-repeat;
@@ -2683,25 +2681,26 @@ a.get_request:hover {
 .frthhome_services .service_icon {
     background: url(../images/home_page4/service_leave_icon.png) no-repeat;
     display: inline-block;
+    filter: brightness(0) invert(1);
     width: 64px;
     height: 64px;
     margin-bottom: 18px;
 }
 .frthhome_services h5 {
     font-size: 25px;
-    color: #000;
+    color: #fff;
     text-transform: none;
     margin-bottom: 8px;
 }
 .frthhome_services h5 a {
-    color: #000;
+    color: #fff;
 }
 .frthhome_services h5 a:hover {
     color: #fff;
 }
 .frthhome_services a.read_more {
     font-size: 13px;
-    color: #f9ffa0;
+    color: #fff;
     font-weight: 700;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
