@@ -294,7 +294,7 @@ a.view-all:hover {} .hvr-bounce-to-right {
 }
 .button--winona.button--inverted:after,
 .button--winona.button--inverted2:after {
-    color: #fff;
+    color: #7c6f1c;
 }
 .button--winona::after,
 .button--winona > span {
@@ -309,7 +309,7 @@ a.view-all:hover {} .hvr-bounce-to-right {
 }
 .button--winona.button--inverted2 {
     background: #a6c644;
-    color: #fff;
+    color: #7c6f1c;
 }
 .button--winona.button--inverted:hover,
 .button--winona.button--inverted2:hover {
@@ -3028,13 +3028,13 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 }
 .get_quote5 h2
 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 30px;
-    text-transform: capitalize;
-    font-weight: 400;
-    display: inline-table;
-    vertical-align: middle;
-    padding-right: 100px;
+      font-size: 34px;
+   
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+
+    font-family: 'Montserrat', serif;
+    font-weight: 700;
     color: #fff;
 }
 .get_quote5 .btn_get_quote
