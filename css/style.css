@@ -286,8 +286,7 @@ a.view-all:hover {} .hvr-bounce-to-right {
     top: 0;
     left: 0;
     opacity: 0;
-    -webkit-transform: translate3d(0, 25%, 0);
-    transform: translate3d(0, 25%, 0);
+     background:#f5d714;
 }
 .button--winona > span {
     display: block;
@@ -298,14 +297,13 @@ a.view-all:hover {} .hvr-bounce-to-right {
 }
 .button--winona::after,
 .button--winona > span {
-    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-    transition: transform 0.3s, opacity 0.3s;
-    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+   
+  
 }
 .button--winona.button--inverted {
     background: #f8de32;
     color: #7c6f1c;
+    width: 300px;
 }
 .button--winona.button--inverted2 {
     background: #a6c644;
@@ -789,7 +787,7 @@ a:focus {
     font-weight: 700;
     color: #474747;
     text-transform: uppercase;
-    padding-right: 17px;
+    padding-right: 0px;
 }
 #main-navigation-wrapper .nav > li:last-child > a {
     padding-right: 0px;
@@ -3489,7 +3487,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 {
     border-radius: 0;
     line-height: 61px;
-    width: 190px !important;
+    width: 360px !important;
     height: 62px;
     background: #6c9015;
 }
