@@ -8781,7 +8781,7 @@ all and (min-width: 1280px) and (-webkit-transform-3d) {
             margin: 0 0 50px 0;
         }
         .button {
-            margin: 0 25% 30px 25%;
+            margin: 0 0% 0px 0%;
             width: 50%;
         }
         .widget-links2
