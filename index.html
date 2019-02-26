@@ -11,11 +11,21 @@
     <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link rel="stylesheet" href="plugins/Stroke-Gap-Icons-Webfont/style.css">
      
+      
+      
+      
+      
     <link rel="stylesheet" href="css/light_box.css">
-      <link rel="stylesheet" href="css/ba.css">
       <link rel="stylesheet" href="css/style.css">
+      
+     
+  <link href="css/twentytwenty.css" rel="stylesheet" type="text/css" />
+  
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+      
+     
+      
 <script type="text/javascript">
     
    
@@ -38,11 +48,12 @@
       
  
       
+      
+      
       <style>
           
          
-
-
+         
       
           .frthhome_services {
               
@@ -578,24 +589,45 @@
     </div>
       
       
-      <div class="pad_94_100 wdt_100">
+      
+    
+   <div class="pad_100_70 service_offer_1 wdt_100" id="services">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
-              <div class="container">
-  <div id="comparison" style="background-image: url(images/bottomofpage.jpg);">
-    <figure>
-      <div id="handle"></div>
-      <div id="divisor" style="background-image: url(images/bottomofpage.jpg)"></div>
-    </figure>
-    <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
-  </div>
- </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            
+          <h3 class="black-color mar_btm30">From Start to <span class="lytgreen-head">Finish</span></h3>
+            <p class="mar_btm30">The process is important. Here's a window into how we do things:</p>
+                <div class="row">
+                    
+                      <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 frthhome_ser_mtbm" >
+                        <div class="twentytwenty-container">
+                              <img src="images/before1.jpg" />
+                              <img src="images/landscaping.jpg" />
+                        </div>
+                    </div>
+                    
+                      <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 frthhome_ser_mtbm" >
+                        <div class="twentytwenty-container">
+                              <img src="images/before3.jpg" />
+                              <img src="images/before4.jpg" />
+                        </div>
+                    </div>
+                    
+                      <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 frthhome_ser_mtbm" >
+                        <div class="twentytwenty-container">
+                             <img src="images/before5.jpg" />
+                              <img src="images/before6.jpg" />
+                        </div>
+                    </div>
+                    
+                      <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 frthhome_ser_mtbm" >
+                        <div class="twentytwenty-container">
+                             
+                        </div>
+                    </div>
+                            
+      </div>
+    </div>
+</div>
+        
          
              
             
@@ -777,14 +809,7 @@ This page describes some of the issues people have presented us with and our app
     
     <!-- footer  style-->
    
-          
-    <!-- footer  style-->
-    <!-- helper js-->
-      <script>
-      $(window).load(function() {
-  $("#container1").twentytwenty();
-});
-      </script>
+         
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
       <script src="js/jquery-ui.min.js"></script>
@@ -801,22 +826,18 @@ This page describes some of the issues people have presented us with and our app
     <script src="js/isotope.min.js"></script>
     <script src="js/main.js"></script>
       
-           <script>
-      
-      var divisor = document.getElementById("divisor"),
-    handle = document.getElementById("handle"),
-    slider = document.getElementById("slider");
-
-function moveDivisor() {
-  handle.style.left = slider.value+"%";
-	divisor.style.width = slider.value+"%";
-}
-
-window.onload = function() {
-	moveDivisor();
-};
-      
-      </script>
+            <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+    <script>
+    $(function(){
+      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+      $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+    });
+    </script>
       
            
   </body>
