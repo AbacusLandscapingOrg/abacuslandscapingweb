@@ -51,7 +51,7 @@ function projectCarousel() {
             nav: true,
             dots: false,
             autoWidth: true,
-            autoplay: true,
+            autoplay: false,
             autoplayTimeout: 3000,
             autoplayHoverPause: true,
             navText: [
