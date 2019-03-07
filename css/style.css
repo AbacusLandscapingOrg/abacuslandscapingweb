@@ -313,16 +313,8 @@ a.view-all:hover {} .hvr-bounce-to-right {
 .button--winona.button--inverted2:hover {
     background: #94b936;
 }
-.button--winona:hover::after {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-}
-.button--winona:hover > span {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -25%, 0);
-    transform: translate3d(0, -25%, 0);
-}
+
+
 .pad_zero {
     padding-left: 0;
     padding-right: 0
