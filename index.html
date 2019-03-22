@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Abacus Landscaping | Home</title>
     <!-- mobile responsive meta-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+      
     <!-- main stylesheet-->
     <meta itemprop="name" content="Abacus Gardening & Landscaping">
     <meta name="description" content="Landscaping for Kamloops! We build and maintain beautiful and functional gardens.">
@@ -36,6 +37,8 @@
         $('html,body').animate({scrollTop:$(this.hash).offset().top -50}, 1400);
     });
 });
+    
+    
         
     </script>
       
@@ -101,6 +104,8 @@
           body {
              padding: 0;
               margin: 0;
+              overflow-x: hidden !important;
+              max-width: 100%;
             
           }
           
