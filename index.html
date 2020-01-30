@@ -22,9 +22,11 @@
 
 <script type="text/javascript">
 
-
-
+ 
    jQuery(document).ready(function($) {
+       
+        $('p').addClass(" editable"); 
+       
     $(".scrollSlow").click(function(event){
         event.preventDefault();
         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 3500);
@@ -133,13 +135,6 @@
                 }
             </style>
             
-                
-    <script type="text/javascript">
-        
-      
-        $('p').addClass(" editable"); 
-        
-    </script>
 
   </head>
   <body class="">
